@@ -1,0 +1,79 @@
+body{
+    margin: auto;
+    max-width: 70em;
+    background-color: #d49a89;
+    text-align: center;
+    }
+    
+h1, h2, h3{
+    font-family: 'PlayFair Display', serif;
+    }
+
+h1{
+    text-align: left;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    }
+
+.band{
+    width: 100%; 
+    height: auto;
+    }
+
+.spotify{
+    margin: 10px;
+    }
+
+.listenButton{
+    border: 2px solid black;
+    font-size: 16px;
+    font-family: 'PlayFair Display', serif;
+    border-radius: 1.2px;
+    padding: 15px 30px;
+    overflow: hidden;
+    background-color: #d49a89;
+    }
+
+.listenButton:hover{
+    color:white;
+    background-color: #d49a89;
+    border-color: white;
+    }
+
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    }
+
+li{
+    padding: 5px;
+    }
+
+table{
+   margin: 30px auto;
+}
+
+th{
+    padding: 15px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+hr{
+    border: none;
+    border-top: dotted 7px;
+    color: black;
+    max-width: 8em;
+    margin: 40px auto;
+    
+}
+
+.video{
+     position: relative;
+}
